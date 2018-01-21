@@ -1,4 +1,4 @@
-class BatteryModel:
+class Battery:
 
     def __init__(self, start_store,
                  max_discharge_rate=1.2,
