@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27b56755-07e1-4a68-95cd-6e4d0b09ebfe" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/upside/2015_2mo.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/upside/DataProcessor.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/upside/temp_file.csv" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/tests/DFFRServiceTest.py" afterPath="$PROJECT_DIR$/tests/DFFRServiceTest.py" />
+      <change beforePath="$PROJECT_DIR$/tests/TestBattery.py" afterPath="$PROJECT_DIR$/tests/TestBattery.py" />
       <change beforePath="$PROJECT_DIR$/upside/Battery.py" afterPath="$PROJECT_DIR$/upside/Battery.py" />
       <change beforePath="$PROJECT_DIR$/upside/DFFRService.py" afterPath="$PROJECT_DIR$/upside/DFFRService.py" />
     </list>
@@ -15,12 +20,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DFFRServiceTest.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/DFFRServiceTest.py">
+      <file leaf-file-name="DFFRService.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/upside/DFFRService.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-              <folding />
+            <state relative-caret-position="57">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <marker date="1516554382595" expanded="true" signature="95:102" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,10 +56,13 @@
         <option value="$PROJECT_DIR$/tests/BatteryModel.py" />
         <option value="$PROJECT_DIR$/tests/BatteryModelTest.py" />
         <option value="$PROJECT_DIR$/upside/BatteryModel.py" />
-        <option value="$PROJECT_DIR$/tests/TestBattery.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/upside/DFFRService.py" />
-        <option value="$PROJECT_DIR$/upside/Battery.py" />
         <option value="$PROJECT_DIR$/tests/DFFRServiceTest.py" />
+        <option value="$PROJECT_DIR$/tests/TestBattery.py" />
+        <option value="$PROJECT_DIR$/upside/Battery.py" />
+        <option value="$PROJECT_DIR$/upside/temp_file.csv" />
+        <option value="$PROJECT_DIR$/upside/DataProcessor.py" />
       </list>
     </option>
   </component>
@@ -105,6 +115,11 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/upside" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -117,7 +132,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for DFFRServiceTest.TestServiceModel">
+  <component name="RunManager" selected="Python.DataProcessor">
+    <configuration name="DataProcessor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/upside" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Upside" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/upside/DataProcessor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Unittests for DFFRServiceTest.TestServiceModel" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,20 +163,6 @@
       <module name="Upside" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;DFFRServiceTest.TestServiceModel&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests for DFFRServiceTest.TestServiceModel.test_given_battery_has_enough_space_and_frequency_is_below_freq_min_system_can_apply_regulation_to_increase_load" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Upside" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;DFFRServiceTest.TestServiceModel.test_given_battery_has_enough_space_and_frequency_is_below_freq_min_system_can_apply_regulation_to_increase_load&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests for DFFRServiceTest.TestServiceModel.test_given_battery_has_sufficient_energy_and_frequency_is_below_required_system_applies_expected_regulation" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -191,16 +210,16 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestServiceModel" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestServiceModel.test_given_battery_has_sufficient_energy_and_frequency_is_below_required_system_applies_expected_regulation" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestServiceModel.test_given_battery_has_enough_space_and_frequency_is_below_freq_min_system_can_apply_regulation_to_increase_load" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestServiceModel.test_given_current_frequency_is_in_deadband_no_energy_delivered" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for TestBattery.TestBattery" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestServiceModel.test_given_current_frequency_is_in_deadband_no_energy_delivered" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for TestBattery.TestBattery" />
+      <item index="4" class="java.lang.String" itemvalue="Python.DataProcessor" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestServiceModel" />
+        <item index="0" class="java.lang.String" itemvalue="Python.DataProcessor" />
         <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for TestBattery.TestBattery" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestServiceModel.test_given_current_frequency_is_in_deadband_no_energy_delivered" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestServiceModel.test_given_battery_has_enough_space_and_frequency_is_below_freq_min_system_can_apply_regulation_to_increase_load" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestServiceModel" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestServiceModel.test_given_current_frequency_is_in_deadband_no_energy_delivered" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestServiceModel.test_given_battery_has_sufficient_energy_and_frequency_is_below_required_system_applies_expected_regulation" />
       </list>
     </recent_temporary>
@@ -222,51 +241,50 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel - 2018.01.21 at 17h 52m 23s.xml">
+    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel - 2018.01.21 at 17h 55m 49s.xml">
       <configuration name="Unittests for DFFRServiceTest.TestServiceModel" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel - 2018.01.21 at 17h 54m 08s.xml">
+    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel - 2018.01.21 at 17h 56m 58s.xml">
       <configuration name="Unittests for DFFRServiceTest.TestServiceModel" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel - 2018.01.21 at 17h 55m 09s.xml">
+    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel - 2018.01.21 at 18h 06m 22s.xml">
       <configuration name="Unittests for DFFRServiceTest.TestServiceModel" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel_test_given_battery_has_enough_space_and_frequency_is_below_freq_min_system_can_apply_regulation_to_increase_load - 2018.01.21 at 17h 53m 53s.xml">
-      <configuration name="Unittests for DFFRServiceTest.TestServiceModel.test_given_battery_has_enough_space_and_frequency_is_below_freq_min_system_can_apply_regulation_to_increase_load" configurationId="tests" />
+    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel - 2018.01.21 at 18h 06m 39s.xml">
+      <configuration name="Unittests for DFFRServiceTest.TestServiceModel" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel_test_given_battery_has_enough_space_and_frequency_is_below_freq_min_system_can_apply_regulation_to_increase_load - 2018.01.21 at 17h 53m 54s.xml">
-      <configuration name="Unittests for DFFRServiceTest.TestServiceModel.test_given_battery_has_enough_space_and_frequency_is_below_freq_min_system_can_apply_regulation_to_increase_load" configurationId="tests" />
+    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel - 2018.01.21 at 18h 08m 16s.xml">
+      <configuration name="Unittests for DFFRServiceTest.TestServiceModel" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel_test_given_battery_has_sufficient_energy_and_frequency_is_below_required_system_applies_expected_regulation - 2018.01.21 at 17h 50m 21s.xml">
+    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel_test_given_battery_has_sufficient_energy_and_frequency_is_below_required_system_applies_expected_regulation - 2018.01.21 at 17h 56m 52s.xml">
       <configuration name="Unittests for DFFRServiceTest.TestServiceModel.test_given_battery_has_sufficient_energy_and_frequency_is_below_required_system_applies_expected_regulation" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel_test_given_battery_has_sufficient_energy_and_frequency_is_below_required_system_applies_expected_regulation - 2018.01.21 at 17h 52m 18s.xml">
+    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel_test_given_battery_has_sufficient_energy_and_frequency_is_below_required_system_applies_expected_regulation - 2018.01.21 at 18h 10m 10s.xml">
       <configuration name="Unittests for DFFRServiceTest.TestServiceModel.test_given_battery_has_sufficient_energy_and_frequency_is_below_required_system_applies_expected_regulation" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel_test_given_current_frequency_is_in_deadband_no_energy_delivered - 2018.01.21 at 17h 54m 03s.xml">
+    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel_test_given_current_frequency_is_in_deadband_no_energy_delivered - 2018.01.21 at 18h 07m 44s.xml">
       <configuration name="Unittests for DFFRServiceTest.TestServiceModel.test_given_current_frequency_is_in_deadband_no_energy_delivered" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_TestBattery_TestBattery - 2018.01.21 at 17h 54m 15s.xml">
-      <configuration name="Unittests for TestBattery.TestBattery" configurationId="tests" />
+    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel_test_given_current_frequency_is_in_deadband_no_energy_delivered - 2018.01.21 at 18h 08m 13s.xml">
+      <configuration name="Unittests for DFFRServiceTest.TestServiceModel.test_given_current_frequency_is_in_deadband_no_energy_delivered" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_TestBattery_TestBattery - 2018.01.21 at 17h 55m 03s.xml">
+    <history-entry file="Unittests_for_TestBattery_TestBattery - 2018.01.21 at 18h 08m 23s.xml">
       <configuration name="Unittests for TestBattery.TestBattery" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946997" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23785166" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39897698" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31202045" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3797954" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -283,101 +301,78 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/upside/DFFRService.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/upside/Battery.py</url>
+          <condition expression="not service.regulate_load(record[1], 1)" language="Python" />
+          <url>file://$PROJECT_DIR$/upside/DataProcessor.py</url>
           <line>23</line>
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>not service.regulate_load(record[1], 1)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>service.regulate_load(record[1], 1)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>49.98-self._freq_min</expression-string>
+        <expression-string>self._battery.energy_stored()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>49.94-self._freq_min</expression-string>
+        <expression-string>record[1], 1</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self._freq_min - frequency</expression-string>
+        <expression-string>service.regulate_load(record[1], 1)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>totalEnergyIncrease</expression-string>
+        <expression-string>50.022/0.285-175.49</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>totalEnergyIncrease-self._max_capacity</expression-string>
+        <expression-string>50.022/0.285</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self._max_capacity</expression-string>
+        <expression-string>self._amountOfPowerChangeIfTooHigh(frequency)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self._energy_held</expression-string>
+        <expression-string>record[1]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(energyRequired==0) | (energyLoss&lt;self._energy_held)</expression-string>
+        <expression-string>True &amp; (datetime.hour==9)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>energyLoss&lt;self._energy_held</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>energyRequired==0 | (energyLoss&lt;self._energy_held)</expression-string>
+        <expression-string>True &amp; datetime.hour==9</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upside/DFFRService.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1516553361979" expanded="true" signature="59:66" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upside/Battery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -386,21 +381,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/TestBattery.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        <state relative-caret-position="15">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upside/2015_2mo.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/DFFRServiceTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/DFFRServiceTest.py">
+    <entry file="file://$PROJECT_DIR$/tests/TestBattery.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upside/temp_file.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upside/Battery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upside/DataProcessor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upside/DFFRService.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1516554382595" expanded="true" signature="95:102" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

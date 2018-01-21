@@ -1,8 +1,10 @@
+from upside.Battery import Battery
+
 
 class DFFRService(object):
     _floatMaxPrecision = 1e-5
 
-    def __init__(self, battery, ideal_frequency = 50, deadband = 0.03, freq_max=50.3, freq_min=49.97):
+    def __init__(self, battery=Battery(), ideal_frequency = 50, deadband = 0.03, freq_max=50.3, freq_min=49.97):
         self._ideal_frequency = ideal_frequency
         self._deadband = deadband
         self._freq_max = freq_max
