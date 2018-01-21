@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="27b56755-07e1-4a68-95cd-6e4d0b09ebfe" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="BatteryModel.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/upside/BatteryModel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="27" column="62" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/upside/BatteryFile.py" />
+        <option value="$PROJECT_DIR$/tests/BatteryModel.py" />
+        <option value="$PROJECT_DIR$/tests/BatteryModelTest.py" />
+        <option value="$PROJECT_DIR$/tests/DFFRServiceTest.py" />
+        <option value="$PROJECT_DIR$/upside/DFFRService.py" />
+        <option value="$PROJECT_DIR$/upside/BatteryModel.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1436" />
+    <option name="height" value="873" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Upside" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Upside" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Upside" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Upside" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Upside" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Upside" type="462c0819:PsiDirectoryNode" />
+              <item name="upside" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests for DFFRServiceTest.TestBatteryModel">
+    <configuration name="Unittests for DFFRServiceTest.TestBatteryModel" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Upside" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;DFFRServiceTest.TestBatteryModel&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for DFFRServiceTest.TestBatteryModel.test_given_battery_has_enough_charge_system_can_apply_regulation" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Upside" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;DFFRServiceTest.TestBatteryModel.test_given_battery_has_enough_charge_system_can_apply_regulation&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for DFFRServiceTest.TestBatteryModel.test_given_battery_has_enough_space_system_can_apply_regulation_to_increase_load" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Upside" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;DFFRServiceTest.TestBatteryModel.test_given_battery_has_enough_space_system_can_apply_regulation_to_increase_load&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for DFFRServiceTest.TestBatteryModel.test_given_battery_has_unsufficient_charge_system_can_apply_regulation" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Upside" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;DFFRServiceTest.TestBatteryModel.test_given_battery_has_unsufficient_charge_system_can_apply_regulation&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for DFFRServiceTest.TestBatteryModel.test_given_current_frequency_is_in_deadband_no_energy_delivered" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Upside" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;DFFRServiceTest.TestBatteryModel.test_given_current_frequency_is_in_deadband_no_energy_delivered&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestBatteryModel.test_given_current_frequency_is_in_deadband_no_energy_delivered" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestBatteryModel" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestBatteryModel.test_given_battery_has_enough_charge_system_can_apply_regulation" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestBatteryModel.test_given_battery_has_unsufficient_charge_system_can_apply_regulation" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestBatteryModel.test_given_battery_has_enough_space_system_can_apply_regulation_to_increase_load" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestBatteryModel" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestBatteryModel.test_given_battery_has_enough_space_system_can_apply_regulation_to_increase_load" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestBatteryModel.test_given_current_frequency_is_in_deadband_no_energy_delivered" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestBatteryModel.test_given_battery_has_unsufficient_charge_system_can_apply_regulation" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestBatteryModel.test_given_battery_has_enough_charge_system_can_apply_regulation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27b56755-07e1-4a68-95cd-6e4d0b09ebfe" name="Default" comment="" />
+      <created>1516545399681</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516545399681</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_DFFRServiceTest_TestBatteryModel - 2018.01.21 at 16h 57m 11s.xml">
+      <configuration name="Unittests for DFFRServiceTest.TestBatteryModel" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_DFFRServiceTest_TestBatteryModel - 2018.01.21 at 16h 57m 57s.xml">
+      <configuration name="Unittests for DFFRServiceTest.TestBatteryModel" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_DFFRServiceTest_TestBatteryModel - 2018.01.21 at 16h 58m 39s.xml">
+      <configuration name="Unittests for DFFRServiceTest.TestBatteryModel" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_DFFRServiceTest_TestBatteryModel_test_given_battery_has_enough_space_system_can_apply_regulation_to_increase_load - 2018.01.21 at 16h 47m 42s.xml">
+      <configuration name="Unittests for DFFRServiceTest.TestBatteryModel.test_given_battery_has_enough_space_system_can_apply_regulation_to_increase_load" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_DFFRServiceTest_TestBatteryModel_test_given_battery_has_enough_space_system_can_apply_regulation_to_increase_load - 2018.01.21 at 16h 51m 17s.xml">
+      <configuration name="Unittests for DFFRServiceTest.TestBatteryModel.test_given_battery_has_enough_space_system_can_apply_regulation_to_increase_load" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_DFFRServiceTest_TestBatteryModel_test_given_battery_has_enough_space_system_can_apply_regulation_to_increase_load - 2018.01.21 at 16h 51m 50s.xml">
+      <configuration name="Unittests for DFFRServiceTest.TestBatteryModel.test_given_battery_has_enough_space_system_can_apply_regulation_to_increase_load" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_DFFRServiceTest_TestBatteryModel_test_given_battery_has_enough_space_system_can_apply_regulation_to_increase_load - 2018.01.21 at 16h 52m 23s.xml">
+      <configuration name="Unittests for DFFRServiceTest.TestBatteryModel.test_given_battery_has_enough_space_system_can_apply_regulation_to_increase_load" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_DFFRServiceTest_TestBatteryModel_test_given_battery_has_enough_space_system_can_apply_regulation_to_increase_load - 2018.01.21 at 16h 53m 03s.xml">
+      <configuration name="Unittests for DFFRServiceTest.TestBatteryModel.test_given_battery_has_enough_space_system_can_apply_regulation_to_increase_load" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_DFFRServiceTest_TestBatteryModel_test_given_battery_has_enough_space_system_can_apply_regulation_to_increase_load - 2018.01.21 at 16h 54m 07s.xml">
+      <configuration name="Unittests for DFFRServiceTest.TestBatteryModel.test_given_battery_has_enough_space_system_can_apply_regulation_to_increase_load" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_DFFRServiceTest_TestBatteryModel_test_given_battery_has_enough_space_system_can_apply_regulation_to_increase_load - 2018.01.21 at 16h 57m 03s.xml">
+      <configuration name="Unittests for DFFRServiceTest.TestBatteryModel.test_given_battery_has_enough_space_system_can_apply_regulation_to_increase_load" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1436" height="877" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946997" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39897698" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/upside/BatteryModel.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>False | True</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>energyLoss&lt;self._energy_held</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>energyRequired==0 | (energyLoss&lt;self._energy_held)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self._energy_held</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>energyLoss</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>True|False</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>True||False</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>energyLoss&lt;self._energy_capacity</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>energyRequired==0</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self._energy_capacity</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tests/BatteryModelTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="677" column="0" lean-forward="false" selection-start-line="677" selection-start-column="0" selection-end-line="677" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/DFFRServiceTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upside/DFFRService.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <marker date="1516550318894" expanded="true" signature="59:66" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upside/BatteryModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="27" column="62" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
