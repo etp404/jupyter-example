@@ -15,22 +15,32 @@ class BatteryModel:
         return self.deliver(self._max_discharge_rate, time_interval)
 
     def storeMax(self, time_interval):
-        return self.store(self._max_charge_rate-self._self_discharge_rate)
+        return self.store(self._max_charge_rate-self._self_discharge_rate, time_interval)
 
-    def store(self, energyToStore):
-        self._increaseEnergyHeld(energyToStore)
-        return True
+    def store(self, energyToStore, time_interval):
+        energyToStore = energyToStore*time_interval/3600
+        totalEnergyIncrease = energyToStore - self.energyDischangedInInterval(time_interval)
+
+        if ((self._energy_held+totalEnergyIncrease-self._max_capacity)>=1e-5):
+            self._energy_held = self._max_capacity
+            return False
+        else:
+            self._increaseEnergyHeld(energyToStore)
+            return True
 
     def deliver(self, powerRequired, time_interval):
         energyRequired = powerRequired*time_interval/3600
-        energyDischarged = self._self_discharge_rate*time_interval/3600
-        energyLoss = energyRequired+energyDischarged
+        energyLoss = energyRequired + self.energyDischangedInInterval(time_interval)
         if ((energyRequired==0) | (energyLoss<self._energy_held)):
             self._reduceEnergyHeld(energyLoss)
             return True
         else:
             self._energy_held=0
             return False
+
+    def energyDischangedInInterval(self, time_interval):
+        energyDischarged = self._self_discharge_rate * time_interval / 3600
+        return energyDischarged
 
     def energy_capacity(self):
         return self._energy_held

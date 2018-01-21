@@ -29,3 +29,9 @@ class TestServiceModel(unittest.TestCase):
         dffrService = DFFRService(battery=battery)
         self.assertTrue(dffrService.regulate_load(49.97, time_interval=3600))
         self.assertAlmostEquals(0.9, battery.energy_capacity())
+
+    def test_given_battery_has_not_enough_space_system_cannot_apply_regulation_to_increase_load(self):
+        battery = BatteryModel(1.5)
+        dffrService = DFFRService(battery=battery)
+        self.assertFalse(dffrService.regulate_load(49.97, time_interval=3600))
+        self.assertAlmostEquals(1.6, battery.energy_capacity())
