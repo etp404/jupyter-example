@@ -18,7 +18,7 @@ class Battery:
         return self.deliver(self._max_discharge_rate, time_interval)
 
     def storeMax(self, time_interval):
-        return self.store(self._max_charge_rate-self._self_discharge_rate, time_interval)
+        return self.store(self._max_charge_rate, time_interval)
 
     def store(self, powerToStore, time_interval):
         energyToStore = powerToStore * time_interval / 3600
@@ -28,7 +28,7 @@ class Battery:
             self._energy_held = self._max_capacity
             return False
         else:
-            self._increaseEnergyHeld(powerToStore)
+            self._increaseEnergyHeld(totalEnergyIncreaseInBattery)
             return True
 
     def deliver(self, powerRequired, time_interval):
