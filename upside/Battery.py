@@ -11,26 +11,30 @@ class Battery:
         self._self_discharge_rate = self_discharge_rate
         self._max_capacity = max_capacity
 
+    def energy_held(self):
+        return self._energy_held
+
     def deliverMax(self, time_interval):
         return self.deliver(self._max_discharge_rate, time_interval)
 
     def storeMax(self, time_interval):
         return self.store(self._max_charge_rate-self._self_discharge_rate, time_interval)
 
-    def store(self, energyToStore, time_interval):
-        energyToStore = energyToStore*time_interval/3600
-        totalEnergyIncrease = energyToStore - self.energyDischangedInInterval(time_interval)
+    def store(self, powerToStore, time_interval):
+        energyToStore = powerToStore * time_interval / 3600
+        totalEnergyIncreaseInBattery = energyToStore - self._energyDischangedInInterval(time_interval)
 
-        if ((self._energy_held+totalEnergyIncrease-self._max_capacity)>=1e-5):
+        if (self._energyIncreaseWouldExceedCapacity(totalEnergyIncreaseInBattery)):
             self._energy_held = self._max_capacity
             return False
         else:
-            self._increaseEnergyHeld(energyToStore)
+            self._increaseEnergyHeld(powerToStore)
             return True
 
     def deliver(self, powerRequired, time_interval):
         energyRequired = powerRequired*time_interval/3600
-        energyLoss = energyRequired + self.energyDischangedInInterval(time_interval)
+        energyLoss = energyRequired + self._energyDischangedInInterval(time_interval)
+
         if ((energyRequired==0) | (energyLoss<self._energy_held)):
             self._reduceEnergyHeld(energyLoss)
             return True
@@ -38,15 +42,16 @@ class Battery:
             self._energy_held=0
             return False
 
-    def energyDischangedInInterval(self, time_interval):
+    def _energyDischangedInInterval(self, time_interval):
         energyDischarged = self._self_discharge_rate * time_interval / 3600
         return energyDischarged
 
-    def energy_capacity(self):
-        return self._energy_held
 
     def _increaseEnergyHeld(self, amount):
         self._energy_held = self._energy_held + amount
 
     def _reduceEnergyHeld(self, amount):
         self._energy_held = max(0, self._energy_held - amount)
+
+    def _energyIncreaseWouldExceedCapacity(self, totalEnergyIncreaseInBattery):
+        return (self._energy_held + totalEnergyIncreaseInBattery - self._max_capacity) >= 1e-5
