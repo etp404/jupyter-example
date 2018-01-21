@@ -23,9 +23,6 @@ class DFFRService(object):
         elif (frequency<self._ideal_frequency):
             return self._battery.deliver(self._amountOfPowerChangeIfTooLow(frequency), time_interval)
 
-    def _requiredEnergyForNextSecond(self, frequency):
-        pass
-
     def _in_deadband(self, frequency):
         return (abs(self._ideal_frequency - frequency)-self._deadband/2) <= self._floatMaxPrecision
 
