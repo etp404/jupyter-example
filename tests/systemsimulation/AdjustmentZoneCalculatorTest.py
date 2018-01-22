@@ -1,6 +1,6 @@
 import unittest
 
-from upside.AdjustmentZoneCalculator import AdjustmentZoneCalculator
+from upside.systemsimulation.AdjustmentZoneCalculator import AdjustmentZoneCalculator
 
 
 class AdjustmentZoneCalculatorTest(unittest.TestCase):

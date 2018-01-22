@@ -2,7 +2,7 @@ from datetime import datetime
 import math
 from numpy import genfromtxt
 
-from upside.DFFRService import DFFRService
+from upside.systemsimulation.DFFRService import DFFRService
 
 frequency_variations = genfromtxt('2015_2mo.csv', delimiter=',')
 

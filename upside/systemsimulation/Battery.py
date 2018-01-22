@@ -4,7 +4,7 @@ class Battery:
                  initial_amount_of_energy_stored=0.8,
                  max_discharge_rate=1.2,
                  max_charge_rate= 1,
-                 self_discharge_rate=0.1,
+                 self_discharge_rate=0.01,
                  max_capacity=1.6):
         self._energy_stored = initial_amount_of_energy_stored
         self._max_discharge_rate = max_discharge_rate
@@ -29,7 +29,7 @@ class Battery:
             self._energy_stored = self._max_capacity
             return False
         else:
-            self._increaseEnergyHeld(totalEnergyIncreaseInBattery)
+            self._energy_stored += totalEnergyIncreaseInBattery
             return True
 
     def deliver(self, powerRequired, time_interval):
@@ -48,11 +48,8 @@ class Battery:
         return energyDischarged
 
 
-    def _increaseEnergyHeld(self, amount):
-        self._energy_stored = self._energy_stored + amount
-
     def _reduceEnergyHeld(self, amount):
         self._energy_stored = max(0, self._energy_stored - amount)
 
     def _energyIncreaseWouldExceedCapacity(self, totalEnergyIncreaseInBattery):
-        return (self._energy_stored + totalEnergyIncreaseInBattery - self._max_capacity) >= 1e-5
+        return self._energy_stored + totalEnergyIncreaseInBattery >= self._max_capacity

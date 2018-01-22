@@ -1,6 +1,6 @@
 import unittest
 
-from upside.Battery import Battery
+from upside.systemsimulation.Battery import Battery
 
 
 class TestBattery(unittest.TestCase):
