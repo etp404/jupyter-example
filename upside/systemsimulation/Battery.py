@@ -15,41 +15,41 @@ class Battery:
     def energy_stored(self):
         return self._energy_stored
 
-    def deliverMax(self, time_interval):
+    def deliver_max(self, time_interval):
         return self.deliver(self._max_discharge_rate, time_interval)
 
-    def storeMax(self, time_interval):
+    def store_max(self, time_interval):
         return self.store(self._max_charge_rate, time_interval)
 
-    def store(self, powerToStore, time_interval):
-        energyToStore = powerToStore * time_interval / 3600
-        totalEnergyIncreaseInBattery = energyToStore - self._energyDischangedInInterval(time_interval)
+    def store(self, power_to_store, time_interval):
+        energy_to_store = power_to_store * time_interval / 3600
+        total_energy_increase_in_battery = energy_to_store - self._energy_dischanged_in_interval(time_interval)
 
-        if (self._energyIncreaseWouldExceedCapacity(totalEnergyIncreaseInBattery)):
+        if (self._energy_increase_would_exceed_capacity(total_energy_increase_in_battery)):
             self._energy_stored = self._max_capacity
             return False
         else:
-            self._energy_stored += totalEnergyIncreaseInBattery
+            self._energy_stored += total_energy_increase_in_battery
             return True
 
-    def deliver(self, powerRequired, time_interval):
-        energyRequired = powerRequired*time_interval/3600
-        energyLoss = energyRequired + self._energyDischangedInInterval(time_interval)
+    def deliver(self, power_required, time_interval):
+        energy_required = power_required*time_interval/3600
+        energy_loss = energy_required + self._energy_dischanged_in_interval(time_interval)
 
-        if ((energyRequired==0) | (energyLoss<self._energy_stored)):
-            self._reduceEnergyHeld(energyLoss)
+        if ((energy_required==0) | (energy_loss<self._energy_stored)):
+            self._reduce_energy_held(energy_loss)
             return True
         else:
             self._energy_stored=0
             return False
 
-    def _energyDischangedInInterval(self, time_interval):
-        energyDischarged = self._self_discharge_rate * time_interval / 3600
-        return energyDischarged
+    def _energy_dischanged_in_interval(self, time_interval):
+        energy_discharged = self._self_discharge_rate * time_interval / 3600
+        return energy_discharged
 
 
-    def _reduceEnergyHeld(self, amount):
+    def _reduce_energy_held(self, amount):
         self._energy_stored = max(0, self._energy_stored - amount)
 
-    def _energyIncreaseWouldExceedCapacity(self, totalEnergyIncreaseInBattery):
-        return self._energy_stored + totalEnergyIncreaseInBattery >= self._max_capacity
+    def _energy_increase_would_exceed_capacity(self, total_energy_increase_in_battery):
+        return self._energy_stored + total_energy_increase_in_battery >= self._max_capacity

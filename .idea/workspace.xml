@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27b56755-07e1-4a68-95cd-6e4d0b09ebfe" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/upside/UpsideReport.ipynb" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/upside/Battery.py" afterPath="$PROJECT_DIR$/upside/Battery.py" />
+      <change beforePath="$PROJECT_DIR$/tests/systemsimulation/AdjustmentZoneCalculatorTest.py" afterPath="$PROJECT_DIR$/tests/systemsimulation/AdjustmentZoneCalculatorTest.py" />
+      <change beforePath="$PROJECT_DIR$/upside/DataProcessor.py" afterPath="$PROJECT_DIR$/upside/DataProcessor.py" />
+      <change beforePath="$PROJECT_DIR$/upside/systemsimulation/AdjustmentZoneCalculator.py" afterPath="$PROJECT_DIR$/upside/systemsimulation/AdjustmentZoneCalculator.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,12 +17,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DataProcessor.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/upside/DataProcessor.py">
+      <file leaf-file-name="DFFRServiceTest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/systemsimulation/DFFRServiceTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -30,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -52,20 +58,24 @@
         <option value="$PROJECT_DIR$/upside/BatteryModel.py" />
         <option value="$PROJECT_DIR$/tests/TestBattery.py" />
         <option value="$PROJECT_DIR$/upside/temp_file.csv" />
-        <option value="$PROJECT_DIR$/upside/DataProcessor.py" />
         <option value="$PROJECT_DIR$/upside/AdjustmentZoneCalculator.py" />
-        <option value="$PROJECT_DIR$/upside/DFFRService.py" />
-        <option value="$PROJECT_DIR$/tests/AdjustmentZoneCalculatorTest.py" />
-        <option value="$PROJECT_DIR$/tests/DFFRServiceTest.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/upside/Battery.py" />
+        <option value="$PROJECT_DIR$/upside/DFFRService.py" />
+        <option value="$PROJECT_DIR$/tests/DFFRServiceTest.py" />
+        <option value="$PROJECT_DIR$/tests/AdjustmentZoneCalculatorTest.py" />
+        <option value="$PROJECT_DIR$/upside/DataProcessor.py" />
+        <option value="$PROJECT_DIR$/upside/UpsideReport.ipynb" />
+        <option value="$PROJECT_DIR$/tests/systemsimulation/AdjustmentZoneCalculatorTest.py" />
+        <option value="$PROJECT_DIR$/upside/systemsimulation/AdjustmentZoneCalculator.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1436" />
-    <option name="height" value="873" />
+    <option name="x" value="1335" />
+    <option name="y" value="28" />
+    <option name="width" value="1843" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -98,7 +108,19 @@
             <path>
               <item name="Upside" type="b2602c69:ProjectViewProjectNode" />
               <item name="Upside" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="systemsimulation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Upside" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Upside" type="462c0819:PsiDirectoryNode" />
               <item name="upside" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Upside" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Upside" type="462c0819:PsiDirectoryNode" />
+              <item name="upside" type="462c0819:PsiDirectoryNode" />
+              <item name="systemsimulation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Upside" type="b2602c69:ProjectViewProjectNode" />
@@ -109,14 +131,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/upside" />
+      <recent name="$PROJECT_DIR$/tests/systemsimulation" />
+      <recent name="$PROJECT_DIR$/upside/systemsimulation" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/upside" />
     </key>
@@ -152,26 +179,28 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Unittests for AdjustmentZoneCalculatorTest.AdjustmentZoneCalculatorTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Upside" type="Python.Ipnb" factoryName="Jupyter Notebook">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Upside" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;AdjustmentZoneCalculatorTest.AdjustmentZoneCalculatorTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="additionalOptions" value="" />
+      <option name="ipnbHost" value="127.0.0.1" />
+      <option name="ipnbPort" value="8888" />
     </configuration>
     <configuration name="Unittests for AdjustmentZoneCalculatorTest.AdjustmentZoneCalculatorTest.test_given_frequency_between_deadline_and_fmin_expected_adjustment_calculated" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/systemsimulation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -185,7 +214,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/systemsimulation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -199,7 +228,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/systemsimulation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -208,20 +237,63 @@
       <option name="_new_target" value="&quot;TestBattery.TestBattery&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestServiceModel" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for AdjustmentZoneCalculatorTest.AdjustmentZoneCalculatorTest.test_given_frequency_between_deadline_and_fmin_expected_adjustment_calculated" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for AdjustmentZoneCalculatorTest.AdjustmentZoneCalculatorTest" />
+    <configuration name="Unittests for tests.systemsimulation.DFFRServiceTest.TestServiceModel" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Upside" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.systemsimulation.DFFRServiceTest.TestServiceModel&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for tests.systemsimulation.TestBattery.TestBattery" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Upside" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.systemsimulation.TestBattery.TestBattery&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests in TestBattery.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Upside" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/systemsimulation/TestBattery.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Jupyter Notebook.Upside" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for tests.systemsimulation.DFFRServiceTest.TestServiceModel" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestServiceModel" />
       <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for TestBattery.TestBattery" />
       <item index="4" class="java.lang.String" itemvalue="Python.DataProcessor" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in TestBattery.py" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.DataProcessor" />
         <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for TestBattery.TestBattery" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for AdjustmentZoneCalculatorTest.AdjustmentZoneCalculatorTest" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestServiceModel" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for AdjustmentZoneCalculatorTest.AdjustmentZoneCalculatorTest.test_given_frequency_between_deadline_and_fmin_expected_adjustment_calculated" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for DFFRServiceTest.TestServiceModel" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for tests.systemsimulation.DFFRServiceTest.TestServiceModel" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in TestBattery.py" />
       </list>
     </recent_temporary>
   </component>
@@ -242,51 +314,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_AdjustmentZoneCalculatorTest_AdjustmentZoneCalculatorTest - 2018.01.22 at 20h 28m 38s.xml">
-      <configuration name="Unittests for AdjustmentZoneCalculatorTest.AdjustmentZoneCalculatorTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_AdjustmentZoneCalculatorTest_AdjustmentZoneCalculatorTest_test_given_frequency_between_deadline_and_fmin_expected_adjustment_calculated - 2018.01.22 at 20h 19m 42s.xml">
+    <history-entry file="Unittests_for_AdjustmentZoneCalculatorTest_AdjustmentZoneCalculatorTest_test_given_frequency_between_deadline_and_fmin_expected_adjustment_calculated - 2018.01.22 at 21h 12m 16s.xml">
       <configuration name="Unittests for AdjustmentZoneCalculatorTest.AdjustmentZoneCalculatorTest.test_given_frequency_between_deadline_and_fmin_expected_adjustment_calculated" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_AdjustmentZoneCalculatorTest_AdjustmentZoneCalculatorTest_test_given_frequency_between_deadline_and_fmin_expected_adjustment_calculated - 2018.01.22 at 20h 23m 27s.xml">
-      <configuration name="Unittests for AdjustmentZoneCalculatorTest.AdjustmentZoneCalculatorTest.test_given_frequency_between_deadline_and_fmin_expected_adjustment_calculated" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel - 2018.01.22 at 20h 24m 26s.xml">
+    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel - 2018.01.22 at 21h 07m 16s.xml">
       <configuration name="Unittests for DFFRServiceTest.TestServiceModel" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel - 2018.01.22 at 20h 24m 58s.xml">
+    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel - 2018.01.22 at 21h 08m 11s.xml">
       <configuration name="Unittests for DFFRServiceTest.TestServiceModel" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel - 2018.01.22 at 20h 28m 10s.xml">
+    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel - 2018.01.22 at 21h 08m 33s.xml">
       <configuration name="Unittests for DFFRServiceTest.TestServiceModel" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel - 2018.01.22 at 20h 28m 25s.xml">
+    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel - 2018.01.22 at 21h 09m 10s.xml">
       <configuration name="Unittests for DFFRServiceTest.TestServiceModel" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel - 2018.01.22 at 20h 28m 33s.xml">
+    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel - 2018.01.22 at 21h 09m 27s.xml">
       <configuration name="Unittests for DFFRServiceTest.TestServiceModel" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel_test_given_battery_has_capacity_and_frequency_is_above_required_system_applies_expected_regulation - 2018.01.22 at 20h 18m 14s.xml">
-      <configuration name="Unittests for DFFRServiceTest.TestServiceModel.test_given_battery_has_capacity_and_frequency_is_above_required_system_applies_expected_regulation" configurationId="tests" />
+    <history-entry file="Unittests_for_DFFRServiceTest_TestServiceModel - 2018.01.22 at 21h 12m 21s.xml">
+      <configuration name="Unittests for DFFRServiceTest.TestServiceModel" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_TestBattery_TestBattery - 2018.01.22 at 20h 28m 42s.xml">
+    <history-entry file="Unittests_for_TestBattery_TestBattery - 2018.01.22 at 21h 12m 26s.xml">
       <configuration name="Unittests for TestBattery.TestBattery" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestBattery_py - 2018.01.22 at 21h 08m 15s.xml">
+      <configuration name="Unittests in TestBattery.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestBattery_py - 2018.01.22 at 21h 08m 27s.xml">
+      <configuration name="Unittests in TestBattery.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1436" height="873" extended-state="6" />
+    <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946997" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16535018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24550128" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2016632" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26091477" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.311054" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44087404" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27249357" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44087404" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -295,6 +367,16 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -397,12 +479,26 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/upside/DFFRService.py">
+    <entry file="file://$PROJECT_DIR$/upside/UpsideReport.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upside/UpsideReport.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upside/systemsimulation/DFFRService.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="92" lean-forward="false" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
           <folding>
-            <element signature="e#0#68#0" expanded="true" />
+            <element signature="e#0#85#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -411,7 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="600" column="0" lean-forward="false" selection-start-line="600" selection-start-column="0" selection-end-line="600" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -427,43 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
           <caret line="1662" column="59" lean-forward="true" selection-start-line="1662" selection-start-column="59" selection-end-line="1662" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upside/AdjustmentZoneCalculator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="60" lean-forward="false" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upside/DFFRService.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="24" column="55" lean-forward="false" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/DFFRServiceTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/TestBattery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -471,33 +529,73 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/systemsimulation/TestBattery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upside/systemsimulation/Battery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upside/systemsimulation/DFFRService.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#85#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upside/DataProcessor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/AdjustmentZoneCalculatorTest.py">
+    <entry file="file://$PROJECT_DIR$/upside/UpsideReport.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upside/systemsimulation/AdjustmentZoneCalculator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="30">
+          <caret line="2" column="76" lean-forward="false" selection-start-line="2" selection-start-column="76" selection-end-line="2" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/systemsimulation/AdjustmentZoneCalculatorTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upside/Battery.py">
+    <entry file="file://$PROJECT_DIR$/tests/systemsimulation/DFFRServiceTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upside/DataProcessor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

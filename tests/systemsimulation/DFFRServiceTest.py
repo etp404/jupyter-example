@@ -3,7 +3,6 @@ import unittest
 from upside.systemsimulation.Battery import Battery
 from upside.systemsimulation.DFFRService import DFFRService
 
-
 class TestServiceModel(unittest.TestCase):
     def test_given_current_frequency_is_in_deadband_no_energy_delivered(self):
         battery = Battery(initial_amount_of_energy_stored=0.1, self_discharge_rate=0.1)
